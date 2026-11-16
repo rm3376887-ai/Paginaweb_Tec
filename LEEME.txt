@@ -1,0 +1,42 @@
+PROYECTO WEB DEL INSTITUTO TECNOLÓGICO SUPERIOR ZACATECAS SUR
+
+INICIO
+Abre index.html con Live Server o desde un servidor local. Redirige a pagina_principal.html.
+Al publicar en GitHub Pages, sube el contenido de esta carpeta a la raíz de tu repositorio.
+
+ORGANIZACIÓN
+- pagina_principal.html: página del instituto.
+- index.html: acceso automático a la página principal (GitHub Pages).
+- preguntas_frecuentes.html: preguntas de la institución.
+- carreras/: seis archivos HTML con el nombre completo de cada carrera.
+- Diseno/: hojas de estilos de la página principal, las carreras y las preguntas.
+- imagenes/: imágenes originales y video (sin modificar su contenido).
+- documentos/: PDF originales incluidos en el ZIP.
+- funciones/: JavaScript compartido por las páginas de carreras.
+
+NOMBRES NUEVOS DE LAS PÁGINAS
+index.html original -> pagina_principal.html
+preguntas.html -> preguntas_frecuentes.html
+ics.html -> carreras/ingenieria_en_sistemas_computacionales.html
+ii.html -> carreras/ingenieria_industrial.html
+ie.html -> carreras/ingenieria_electromecanica.html
+Administracion.html -> carreras/ingenieria_en_administracion.html
+ge.html -> carreras/ingenieria_en_gestion_empresarial.html
+conta.html -> carreras/contaduria_publica.html
+
+CAMBIOS
+- Se cambiaron clases CSS y referencias en HTML, CSS y JavaScript a nombres en español con guiones bajos.
+- Se corrigieron rutas de archivos después de moverlos.
+- Se simplificaron comentarios y espacios del código sin cambiar estilos.
+- Se corrigieron enlaces de retículas de Administración, Gestión Empresarial y Contador Público.
+- Se enlazaron PDFs locales existentes de Sistemas Computacionales e Industrial.
+- Se quitó una etiqueta que intentaba cargar ics.js, archivo ausente del proyecto original.
+- Se corrigió un prefijo de URL escrito como hhttps:// en la galería de Administración.
+
+OBSERVACIONES DEL MATERIAL ORIGINAL
+- Ingeniería Industrial y Gestión Empresarial no contienen sección de Perfil de Ingreso,
+  pero sus menús la anuncian. Se conservó el contenido sin inventar perfiles académicos.
+- Algunas fotografías y otros enlaces son externos. Su funcionamiento depende del servidor de origen e Internet.
+- La opción Código de Ética de la Empresa Desarrolladora del menú original no tiene destino,
+  porque ese archivo no estaba incluido en el ZIP original.
+- Esta reorganización no modifica la información académica existente.

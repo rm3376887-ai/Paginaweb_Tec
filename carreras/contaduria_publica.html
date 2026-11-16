@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce la Ingeniería en Sistemas Computacionales del Instituto Tecnológico Superior Zacatecas Sur.">
+    <title>CONTADOR PÚBLICO | ITSZaS</title>
+    <link rel="stylesheet" href="../Diseno/estilos_carreras.css">
+    <script src="../funciones/funciones_carreras.js" defer></script>
+</head>
+<body>
+
+    <a class="enlace_saltar" href="#contenido">Saltar al contenido principal</a>
+
+    <!-- BARRA DE ACCESIBILIDAD -->
+    <div class="herramientas_accesibilidad" aria-label="Herramientas de accesibilidad">
+        <button type="button" id="aumentar_texto" aria-label="Aumentar tamaño de letra">A+</button>
+        <button type="button" id="restablecer_texto" aria-label="Restablecer tamaño de letra">A</button>
+        <button type="button" id="disminuir_texto" aria-label="Disminuir tamaño de letra">A−</button>
+        <button type="button" id="alternar_contraste" aria-pressed="false" aria-label="Activar alto contraste">
+            Contraste
+        </button>
+        <button type="button" id="alternar_movimiento" aria-pressed="false" aria-label="Reducir animaciones">
+            Reducir movimiento
+        </button>
+    </div>
+
+    <!-- ENCABEZADO Y NAVEGACIÓN Ambos permanecen visibles al desplazarse por la página. -->
+    <div class="encabezado_sitio">
+        <header class="encabezado">
+            <div class="contenedor contenido_encabezado">
+                <a href="#inicio" class="marca" aria-label="Ir al inicio de Ingeniería en Sistemas Computacionales">
+                    <div class="logo_marca">
+                        <img src="https://zacatecassur.tecnm.mx/programas/img/logos/logocp.jpeg"
+                             alt="Logo de Gestion empresarial">
+                    </div>
+
+                    <div class="texto_marca">
+                    <span>TECNOLOGICO NACIONAL DE MEXICO</span>
+                    <h1>Contador Público</h1>
+                    <p>Especialidad: Informática Contable y Fiscal</p>
+                    </div>
+                </a>
+            </div>
+        </header>
+
+        <nav class="barra_navegacion" id="navegacion" aria-label="Navegación principal">
+            <div class="contenedor contenedor_navegacion">
+                <button class="boton_menu" id="boton_menu" type="button"
+                        aria-expanded="false" aria-controls="lista_navegacion">
+                    <span class="icono_menu" aria-hidden="true">
+                        <span></span><span></span><span></span>
+                    </span>
+                    <span class="texto_boton_menu">Menú</span>
+                </button>
+
+                <ul class="lista_navegacion" id="lista_navegacion">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#objetivo">Objetivo</a></li>
+                    <li><a href="#ingreso">Perfil de Ingreso</a></li>
+                    <li><a href="#egreso">Perfil de Egreso</a></li>
+                    <li><a href="#campo_laboral">Campo laboral</a></li>
+                    <li><a href="https://zacatecassur.tecnm.mx/programas/reticulas/retcp.pdf">Retícula</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main id="contenido">
+
+        <!-- INICIO -->
+        <section class="portada" id="inicio">
+            <div class="contenedor contenido_portada">
+                <div class="logo_portada">
+                    <img src="https://zacatecassur.tecnm.mx/programas/img/logos/logocp.jpeg"
+                         alt="Logotipo de Gestion Empresarial">
+                </div>
+
+                <div class="texto_portada">
+                    <span class="etiqueta_portada">INGENIERÍA EN GESTIÓN EMPRESARIAL</span>
+                    <h2>Bienvenido</h2>
+                    <p class="titulo_portada">¡Instituto Tecnológico Superior Zacatecas Sur!</p>
+                    <p>
+                        Conoce nuestra carrera, su objetivo, perfiles de ingreso y egreso,
+                        campo laboral y la especialidad en Informática Contable y Fiscal.
+                    </p>
+                    <a href="#objetivo" class="boton_portada">CONOCER LA CARRERA</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- OBJETIVO -->
+        <section class="seccion seccion_blanca" id="objetivo">
+            <div class="contenedor">
+                <div class="titulo_seccion">
+                    <span>FORMACIÓN PROFESIONAL</span>
+                    <h2>Objetivo de la carrera</h2>
+                </div>
+
+                <div class="caja_objetivo">
+                    <span class="etiqueta_seccion">OBJETIVO</span>
+                    <p>
+                    Formar profesionistas competitivos capaces de diseñar, establecer, aplicar, controlar y evaluar sistemas de información administrativa, financiera y fiscal para la toma de decisiones en las entidades económicas nacionales e internacionales con una actitud ética emprendedora y de liderazgo a través de la investigación fomentando el desarrollo sustentable.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+<!-- PERFIL DE INGRESO -->
+<section class="seccion seccion_gris" id="ingreso">
+    <div class="contenedor">
+        <div class="titulo_seccion">
+            <span>ASPIRANTES</span>
+            <h2>Perfil de Ingreso</h2>
+            <p>El aspirante al ingresar a esta licenciatura deberá contar con los siguientes conocimientos, habilidades, actitudes y valores.</p>
+        </div>
+
+        <div class="cuadricula_perfiles">
+            <article class="tarjeta_perfil">
+                <span class="numero">01</span>
+                <h3>Entorno general</h3>
+                <p>Conocimientos básicos del entorno local, nacional e internacional.</p>
+            </article>
+
+            <article class="tarjeta_perfil">
+                <span class="numero">02</span>
+                <h3>Conocimientos básicos</h3>
+                <p>Conocimientos en matemáticas, álgebra, contabilidad, estadística, administración, informática, inglés y cultura general.</p>
+            </article>
+
+            <article class="tarjeta_perfil">
+                <span class="numero">03</span>
+                <h3>Análisis y síntesis</h3>
+                <p>Habilidades para analizar información, sintetizar ideas y organizar actividades.</p>
+            </article>
+
+            <article class="tarjeta_perfil">
+                <span class="numero">04</span>
+                <h3>Comunicación</h3>
+                <p>Capacidad para comunicarse de forma clara, tanto verbalmente como por escrito.</p>
+            </article>
+
+            <article class="tarjeta_perfil">
+                <span class="numero">05</span>
+                <h3>Interés y trabajo en equipo</h3>
+                <p>Interés por las ciencias administrativas y disposición para colaborar y trabajar en equipo.</p>
+            </article>
+
+            <article class="tarjeta_perfil">
+                <span class="numero">06</span>
+                <h3>Actitudes y valores</h3>
+                <p>Compromiso, honestidad, independencia, iniciativa, espíritu de servicio, respeto al medio ambiente y responsabilidad.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- PERFIL DE EGRESO -->
+<section class="seccion seccion_blanca" id="egreso">
+    <div class="contenedor">
+
+        <div class="titulo_seccion">
+            <span>PROFESIONISTA</span>
+            <h2>Perfil de Egreso</h2>
+            <p>
+                El egresado de la carrera de Contador Público estará habilitado para:
+            </p>
+        </div>
+
+        <div class="lista_egreso">
+
+            <div class="elemento_egreso">
+                <span>01</span>
+                <p>Diseñar, implantar, controlar, evaluar, asesorar e innovar sistemas de información financiera, administrativa, fiscal y de auditoría en entidades económicas.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>02</span>
+                <p>Analizar y generar información financiera con apego a las Normas de Información Financiera para la toma de decisiones.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>03</span>
+                <p>Auditar sistemas financieros, fiscales y administrativos de las entidades económicas con apego a las Normas y Procedimientos de Auditoría y Normas para atestiguar.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>04</span>
+                <p>Aplicar el marco legal pertinente a las características y necesidades de la entidad económica dentro del campo profesional.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>05</span>
+                <p>Administrar estratégicamente los recursos de las entidades económicas con visión emprendedora y competitiva.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>06</span>
+                <p>Conocer y cumplir el código de ética profesional.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>07</span>
+                <p>Utilizar las Tecnologías de Información y Comunicación para eficientar los procesos y la toma de decisiones.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>08</span>
+                <p>Desarrollar investigación asumiendo una actitud de liderazgo, compromiso y servicio con su entorno social.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>09</span>
+                <p>Elaborar proyectos de inversión de acuerdo con las características y necesidades del entorno.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>10</span>
+                <p>Asumir una actitud de compromiso y servicio con su entorno social y el medio ambiente.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>11</span>
+                <p>Formar y promover el desarrollo de grupos de trabajo interdisciplinarios para el logro de los resultados de las entidades, con sentido de responsabilidad y visión integradora.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>12</span>
+                <p>Conocer y proponer estrategias de mercadotecnia que permitan alcanzar los objetivos de la empresa.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>13</span>
+                <p>Aplicar métodos de análisis de información financiera para determinar las mejores alternativas de inversión y financiamiento.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>14</span>
+                <p>Dominar y aplicar los principios de contabilidad generalmente aceptados y las normas de auditoría nacionales e internacionales.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>15</span>
+                <p>Diseñar, integrar, implementar y controlar sistemas de información contable, administrativa, fiscal, financiera y de costos en entidades nacionales e internacionales.</p>
+            </div>
+
+            <div class="elemento_egreso">
+                <span>16</span>
+                <p>Diseñar, asesorar y proporcionar estrategias que permitan la toma de decisiones de inversión y financiamiento para el desarrollo financiero competitivo de las entidades económicas.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- CAMPO LABORAL -->
+<section class="seccion seccion_azul" id="campo_laboral">
+    <div class="contenedor">
+
+        <div class="titulo_seccion titulo_seccion_azul">
+            <span>OPORTUNIDADES</span>
+            <h2>Campo laboral</h2>
+            <p>
+                El egresado de la carrera de Contador Público se podrá desenvolver en los siguientes campos laborales o áreas:
+            </p>
+        </div>
+
+        <div class="cuadricula_trabajo">
+            <div class="elemento_trabajo">
+                <span>01</span>
+                <strong>Despachos contables</strong>
+            </div>
+
+            <div class="elemento_trabajo">
+                <span>02</span>
+                <strong>Asesor financiero, fiscal y de proyectos</strong>
+            </div>
+
+            <div class="elemento_trabajo">
+                <span>03</span>
+                <strong>Área de auditoría</strong>
+            </div>
+
+            <div class="elemento_trabajo">
+                <span>04</span>
+                <strong>Docencia</strong>
+            </div>
+
+            <div class="elemento_trabajo">
+                <span>05</span>
+                <strong>Dependencias públicas o gubernamentales</strong>
+            </div>
+
+            <div class="elemento_trabajo">
+                <span>06</span>
+                <strong>Empresas privadas</strong>
+            </div>
+
+            <div class="elemento_trabajo">
+                <span>07</span>
+                <strong>Instituciones financieras</strong>
+            </div>
+
+            <div class="elemento_trabajo">
+                <span>08</span>
+                <strong>Área de costos</strong>
+            </div>
+
+            <div class="elemento_trabajo">
+                <span>09</span>
+                <strong>Finanzas</strong>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+         <!-- GALERÍA -->
+        <section class="seccion_galeria" id="galeria">
+            <div class="contenedor">
+                <div class="titulo_seccion">
+                    <span>Comunidad</span>
+                    <h2>Galería</h2>
+                    <p>Conoce las instalaciones y actividades de nuestra institución.</p>
+                </div>
+
+                <div class="carrusel_galeria" id="carrusel_galeria"
+                     role="region" aria-roledescription="carrusel"
+                     aria-label="Galería de imágenes institucionales">
+                    <div class="ventana_galeria">
+                        <div class="pista_galeria" id="pista_galeria">
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/cp/1.jpg" alt="Fotografía de las instalaciones del instituto">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/cp/2.jpg" alt="Vista de la comunidad del instituto">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/cp/3.jpg" alt="Actividades realizadas en el instituto">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/cp/4.jpeg" alt="Espacios de la institución educativa">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/cp/5.jpeg" alt="Eventos de la comunidad tecnológica">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/cp/6.jpeg" alt="Instalaciones y actividades académicas">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/cp/8.jpeg" alt="Eventos de la comunidad tecnológica">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/cp/10.jpeg" alt="Instalaciones y actividades académicas">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="controles_carrusel controles_galeria" aria-label="Controles de la galería">
+
+                        <button type="button" class="boton_carrusel"
+                                id="anterior_galeria" aria-label="Mostrar imagen anterior">
+                            &#10094; Anterior
+                        </button>
+
+                        <span class="contador_carrusel" id="contador_galeria" aria-live="polite">
+                            Imagen 1 de 6
+                        </span>
+
+                        <button type="button" class="boton_carrusel"
+                                id="siguiente_galeria" aria-label="Mostrar imagen siguiente">
+                            Siguiente &#10095;
+                        </button>
+
+                        <button type="button" class="boton_carrusel reproducir_carrusel"
+                                id="pausa_galeria" aria-pressed="false">
+                            Pausar
+                        </button>
+
+                    </div>
+
+                    <div class="puntos_galeria" aria-label="Seleccionar imagen">
+                        <button type="button" data-slide="0" aria-label="Imagen 1" aria-current="true"></button>
+                        <button type="button" data-slide="1" aria-label="Imagen 2"></button>
+                        <button type="button" data-slide="2" aria-label="Imagen 3"></button>
+                        <button type="button" data-slide="3" aria-label="Imagen 4"></button>
+                        <button type="button" data-slide="4" aria-label="Imagen 5"></button>
+                        <button type="button" data-slide="5" aria-label="Imagen 6"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+  <!-- CONTACTO -->
+        <section class="seccion seccion_gris" id="contacto">
+            <div class="contenedor">
+
+                <div class="titulo_seccion">
+                    <span>INFORMACIÓN</span>
+                    <h2>Contacto</h2>
+                </div>
+
+                <div class="caja_contacto">
+                    <div class="informacion_contacto">
+                        <div class="elemento_contacto">
+                            <span>RESPONSABLE</span>
+                            <div>
+                                <h3>Lic. Yessica Elizabeth Manzanera Estrada</h3>
+                                <p>Jefe de división Contador Público e Industrial
+
+</p>
+                            </div>
+                        </div>
+
+                        <div class="elemento_contacto">
+                            <span>INSTITUCIÓN</span>
+                            <div>
+                                <h3>Instituto Tecnológico Superior Zacatecas Sur</h3>
+                                <p>Contador Público</p>
+                            </div>
+                        </div>
+
+                        <div class="elemento_contacto">
+                            <span>ESPECIALIDAD</span>
+                            <div>
+                                <h3>Informática Contable y Fiscal</h3>
+                                <p>Especialidad de la carrera.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="caja_red_social">
+                        <span>SÍGUENOS</span>
+                        <a href="https://www.facebook.com/contaduria.zacatecas.sur">Facebook</a>
+                        <a href="https://www.instagram.com/contaduria.zacatecas.sur/">Instagram</a>
+                        <a href="https://twitter.com/ContaduriaZS">Twitter</a>
+                        <a href="https://www.linkedin.com/in/contaduria-zacatecas-sur-4b0a1b1b2/">LinkedIn</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="pie_pagina">
+        <div class="contenedor contenido_pie_pagina">
+            <div>
+                <strong>Contador Público</strong>
+                <p>Instituto Tecnológico Superior Zacatecas Sur</p>
+            </div>
+            <a href="../pagina_principal.html">Volver a la página principal</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce la Ingeniería en Sistemas Computacionales del Instituto Tecnológico Superior Zacatecas Sur.">
+    <title>Ingeniería en Administración | ITSZaS</title>
+    <link rel="stylesheet" href="../Diseno/estilos_carreras.css">
+    <script src="../funciones/funciones_carreras.js" defer></script>
+</head>
+<body>
+
+    <a class="enlace_saltar" href="#contenido">Saltar al contenido principal</a>
+
+    <!-- BARRA DE ACCESIBILIDAD -->
+    <div class="herramientas_accesibilidad" aria-label="Herramientas de accesibilidad">
+        <button type="button" id="aumentar_texto" aria-label="Aumentar tamaño de letra">A+</button>
+        <button type="button" id="restablecer_texto" aria-label="Restablecer tamaño de letra">A</button>
+        <button type="button" id="disminuir_texto" aria-label="Disminuir tamaño de letra">A−</button>
+        <button type="button" id="alternar_contraste" aria-pressed="false" aria-label="Activar alto contraste">
+            Contraste
+        </button>
+        <button type="button" id="alternar_movimiento" aria-pressed="false" aria-label="Reducir animaciones">
+            Reducir movimiento
+        </button>
+    </div>
+
+    <!-- ENCABEZADO Y NAVEGACIÓN Ambos permanecen visibles al desplazarse por la página. -->
+    <div class="encabezado_sitio">
+        <header class="encabezado">
+            <div class="contenedor contenido_encabezado">
+                <a href="#inicio" class="marca" aria-label="Ir al inicio de Ingeniería en Sistemas Computacionales">
+                    <div class="logo_marca">
+                        <img src="https://zacatecassur.tecnm.mx/programas/img/logos/logoia.png"
+                             alt="Logo de Ingeniería en Sistemas Computacionales">
+                    </div>
+
+                    <div class="texto_marca">
+                    <span>TECNOLOGICO NACIONAL DE MEXICO</span>
+                    <h1>Ingeniería en Administración</h1>
+                    <p>Especialidad: Marketing y el Factor Humano</p>
+                    </div>
+                </a>
+            </div>
+        </header>
+
+        <nav class="barra_navegacion" id="navegacion" aria-label="Navegación principal">
+            <div class="contenedor contenedor_navegacion">
+                <button class="boton_menu" id="boton_menu" type="button"
+                        aria-expanded="false" aria-controls="lista_navegacion">
+                    <span class="icono_menu" aria-hidden="true">
+                        <span></span><span></span><span></span>
+                    </span>
+                    <span class="texto_boton_menu">Menú</span>
+                </button>
+
+                <ul class="lista_navegacion" id="lista_navegacion">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#objetivo">Objetivo</a></li>
+                    <li><a href="#ingreso">Perfil de Ingreso</a></li>
+                    <li><a href="#egreso">Perfil de Egreso</a></li>
+                    <li><a href="#campo_laboral">Campo laboral</a></li>
+                    <li><a href="#reticula">Retícula</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main id="contenido">
+
+        <!-- INICIO -->
+        <section class="portada" id="inicio">
+            <div class="contenedor contenido_portada">
+                <div class="logo_portada">
+                    <img src="https://zacatecassur.tecnm.mx/programas/img/logos/logoia.png"
+                         alt="Logo Administración">
+                </div>
+
+                <div class="texto_portada">
+                    <span class="etiqueta_portada">Ingeniería en Administración</span>
+                    <h2>Bienvenido</h2>
+                    <p class="titulo_portada">¡Instituto Tecnológico Superior Zacatecas Sur!</p>
+                    <p>
+                        Conoce nuestra carrera, su objetivo, perfiles de ingreso y egreso,
+                        campo laboral y la especialidad en Marketing y el Factor Humano.
+                    </p>
+                    <a href="#objetivo" class="boton_portada">CONOCER LA CARRERA</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- OBJETIVO -->
+        <section class="seccion seccion_blanca" id="objetivo">
+            <div class="contenedor">
+                <div class="titulo_seccion">
+                    <span>FORMACIÓN PROFESIONAL</span>
+                    <h2>Objetivo de la carrera</h2>
+                </div>
+
+                <div class="caja_objetivo">
+                    <span class="etiqueta_seccion">OBJETIVO</span>
+                    <p>
+                        Formar profesionales competentes que apliquen la ciencia y la tecnología en la generación, innovación
+                        y dirección de empresas, para resolver los desafíos de un entorno globalizado, con una visión emprendedora,
+                         ética, humana y de responsabilidad social.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PERFIL DE INGRESO -->
+        <section class="seccion seccion_gris" id="ingreso">
+            <div class="contenedor">
+                <div class="titulo_seccion">
+                    <span>ASPIRANTES</span>
+                    <h2>Perfil de Ingreso</h2>
+                    <p>El aspirante al ingresar a esta licenciatura deberá contar con los siguientes conocimientos, habilidades, actitudes y valores:</p>
+                </div>
+
+                <div class="cuadricula_perfiles">
+
+                    <article class="tarjeta_perfil">
+                        <span class="numero">01</span>
+                        <h3>Conocimientos básicos</h3>
+                        <p>Conocimientos básicos en matemáticas, algebra, principios de contabilidad, estadística, administración, informática, inglés y cultura general.</p>
+                    </article>
+
+                    <article class="tarjeta_perfil">
+                        <span class="numero">02</span>
+                        <h3>Habilidades analíticas y comunicativas</h3>
+                        <p>Habilidades para el análisis y síntesis, para organizar y comunicarse en forma verbal y escrita.</p>
+                    </article>
+
+                    <article class="tarjeta_perfil">
+                        <span class="numero">03</span>
+                        <h3>Intereses y valores</h3>
+                        <p>Interés por las ciencias administrativas, acostumbrado al trabajo en equipo, compromiso, honestidad, independencia, proactivo, espíritu de servicio, respetuosos del medio ambiente, responsable.</p>
+                    </article>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PERFIL DE EGRESO -->
+ <section class="seccion seccion_blanca" id="egreso">
+            <div class="contenedor">
+
+                <div class="titulo_seccion">
+                    <span>PROFESIONISTA</span>
+                    <h2>Perfil de Egreso</h2>
+                    <p>
+                    El egresado de la carrera de Ingeniería en Administración estará habilitado para:
+                    </p>
+                </div>
+
+                <div class="lista_egreso">
+                    <div class="elemento_egreso">
+                        <span>01</span>
+                        <p>Genera, desarrolla e innova empresas competitivas para la transformación económica y social, identificando las oportunidades de negocios en contextos locales, regionales, nacionales e internacionales.</p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>02</span>
+                        <p>Toma decisiones en las operaciones económicas, administrativas y financieras que se generan dentro de las empresas, con el objeto de minimizar riesgos, en un marco de derecho nacional e internacional.</p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>03</span>
+                        <p>Utiliza metodologías, técnicas y herramientas para la resolución de problemas en la empresa.</p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>04</span>
+                        <p>Propone soluciones creativas para generar ventajas competitivas en la empresa.</p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>05</span>
+                        <p>Actúa de forma ética como agente de cambio en las empresas, para responder a las necesidades del entorno con un espíritu de responsabilidad social.</p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>06</span>
+                        <p>Utiliza eficientemente las tecnologías de la información y comunicación para optimizar los procesos y recursos en su práctica profesional.</p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>07</span>
+                        <p>Planea, organiza, integra y dirige equipos de trabajo para favorecer el crecimiento de la empresa.</p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>08</span>
+                        <p>Aplica habilidades directivas para el logro de los objetivos organizacionales en diferentes contextos.</p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>09</span>
+                        <p>Promueve sistemas de calidad para el proceso de mejora continua en las empresas. </p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>10</span>
+                        <p>Aplica el marco legal vigente, acorde a las necesidades situacionales de la empresa para darle certeza jurídica.  </p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>11</span>
+                        <p>Desarrolla e implementa modelos y planes de negocios para generar riqueza </p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>12</span>
+                        <p> Diseña e implementa estrategias para optimizar los procesos en la generación de negocios. </p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>13</span>
+                        <p> Presta servicios de consultoría en su ámbito profesional para alcanzar los objetivos de la empresa. </p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>14</span>
+                        <p>Investiga las megatendencias que impactan a la empresa y a su entorno para tomar medidas proactivas en los programas de desarrollo sustentable.  </p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>15</span>
+                        <p>Diseña implementa y evalúa los sistemas y modelos administrativos, para la optimización de los recursos que intervienen en la empresa, con un enfoque de calidad y competitividad.  </p>
+                    </div>
+                    <div class="elemento_egreso">
+                        <span>16</span>
+                        <p> Promueve el potencial del capital humano para incrementar la productividad de la empresa. </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+ <!-- CAMPO LABORAL -->
+        <section class="seccion seccion_azul" id="campo_laboral">
+            <div class="contenedor">
+
+                <div class="titulo_seccion titulo_seccion_azul">
+                    <span>OPORTUNIDADES</span>
+                    <h2>Campo laboral</h2>
+                    <p>
+                        Áreas en las que puede desempeñarse un egresado de Ingeniería en Administración.
+                    </p>
+                </div>
+
+                <div class="cuadricula_trabajo">
+                    <div class="elemento_trabajo"><span>01</span><strong>Recursos humanos</strong></div>
+                    <div class="elemento_trabajo"><span>02</span><strong>Finanzas</strong></div>
+                    <div class="elemento_trabajo"><span>03</span><strong>Mercadotecnia</strong></div>
+                    <div class="elemento_trabajo"><span>04</span><strong>Logística</strong></div>
+                    <div class="elemento_trabajo"><span>05</span><strong>Gestión de proyectos</strong></div>
+                    <div class="elemento_trabajo"><span>06</span><strong>Consultoría empresarial</strong></div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- RETÍCULA -->
+        <section class="seccion seccion_gris" id="reticula">
+            <div class="contenedor">
+                <div class="titulo_seccion">
+                    <span>PLAN DE ESTUDIOS</span>
+                    <h2>Retícula</h2>
+                    <p>Consulta el plan de estudios de Ingeniería en Administración.</p>
+                </div>
+
+                <div class="caja_reticula">
+                    <div class="informacion_reticula">
+                        <span>PLAN DE ESTUDIOS</span>
+                        <h3>Ingeniería en Administración</h3>
+                        <a href="https://zacatecassur.tecnm.mx/programas/reticulas/retia.pdf"
+                           target="_blank" rel="noopener noreferrer" class="boton boton_dorado">
+                            VER RETÍCULA
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERÍA -->
+        <section class="seccion_galeria" id="galeria">
+            <div class="contenedor">
+                <div class="titulo_seccion">
+                    <span>ACTIVIDADES</span>
+                    <h2>Galería</h2>
+                    <p>CFotografías de actividades, visitas industriales y eventos de Administracion.</p>
+                </div>
+
+                <div class="carrusel_galeria" id="carrusel_galeria"
+                     role="region" aria-roledescription="carrusel"
+                     aria-label="Galería de imágenes institucionales">
+                    <div class="ventana_galeria">
+                        <div class="pista_galeria" id="pista_galeria">
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/ia/1.png" alt="Fotografía de las instalaciones del instituto">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/ia/2.png" alt="Vista de la comunidad del instituto">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/ia/3.png" alt="Actividades realizadas en el instituto">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/ia/4.png" alt="Espacios de la institución educativa">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/ia/5.png" alt="Eventos de la comunidad tecnológica">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/ia/7.png" alt="Instalaciones y actividades académicas">
+                            </div>
+                            <div class="diapositiva_galeria">
+                                <img src="https://zacatecassur.tecnm.mx/programas/img/ia/9.png" alt="Eventos de la comunidad tecnológica">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="controles_carrusel controles_galeria" aria-label="Controles de la galería">
+
+                        <button type="button" class="boton_carrusel"
+                                id="anterior_galeria" aria-label="Mostrar imagen anterior">
+                            &#10094; Anterior
+                        </button>
+
+                        <span class="contador_carrusel" id="contador_galeria" aria-live="polite">
+                            Imagen 1 de 6
+                        </span>
+
+                        <button type="button" class="boton_carrusel"
+                                id="siguiente_galeria" aria-label="Mostrar imagen siguiente">
+                            Siguiente &#10095;
+                        </button>
+
+                        <button type="button" class="boton_carrusel reproducir_carrusel"
+                                id="pausa_galeria" aria-pressed="false">
+                            Pausar
+                        </button>
+
+                    </div>
+
+                    <div class="puntos_galeria" aria-label="Seleccionar imagen">
+                        <button type="button" data-slide="0" aria-label="Imagen 1" aria-current="true"></button>
+                        <button type="button" data-slide="1" aria-label="Imagen 2"></button>
+                        <button type="button" data-slide="2" aria-label="Imagen 3"></button>
+                        <button type="button" data-slide="3" aria-label="Imagen 4"></button>
+                        <button type="button" data-slide="4" aria-label="Imagen 5"></button>
+                        <button type="button" data-slide="5" aria-label="Imagen 6"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- CONTACTO -->
+        <section class="seccion seccion_gris" id="contacto">
+            <div class="contenedor">
+
+                <div class="titulo_seccion">
+                    <span>INFORMACIÓN</span>
+                    <h2>Contacto</h2>
+                </div>
+
+                <div class="caja_contacto">
+                    <div class="informacion_contacto">
+                        <div class="elemento_contacto">
+                            <span>RESPONSABLE</span>
+                            <div>
+                                <h3>Lic. Mireya Bautista Casas</h3>
+                                <p>Jefe de división Económico-administrativo</p>
+                            </div>
+                        </div>
+
+                        <div class="elemento_contacto">
+                            <span>INSTITUCIÓN</span>
+                            <div>
+                                <h3>Instituto Tecnológico Superior Zacatecas Sur</h3>
+                                <p>Ingeniería en Administración.</p>
+                            </div>
+                        </div>
+
+                        <div class="elemento_contacto">
+                            <span>ESPECIALIDAD</span>
+                            <div>
+                                <h3>Marketing y el Factor Humano</h3>
+                                <p>Especialidad de la carrera.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="caja_red_social">
+                        <span>SÍGUENOS</span>
+                        <a href="https://www.facebook.com/share/1EtDREQVs1/">Facebook</a>
+                        <a href="https://www.instagram.com/contaduria.zacatecas.sur/">Instagram</a>
+                        <a href="https://twitter.com/ContaduriaZS">X</a>
+                        <a href="https://www.linkedin.com/in/contaduria-zacatecas-sur-4b0a1b1b2">LinkedIn</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="pie_pagina">
+        <div class="contenedor contenido_pie_pagina">
+            <div>
+                <strong>Ingeniería en Administración</strong>
+                <p>Instituto Tecnológico Superior Zacatecas Sur</p>
+            </div>
+            <a href="../pagina_principal.html">Volver a la página principal</a>
+        </div>
+    </footer>
+
+</body>
+</html>
