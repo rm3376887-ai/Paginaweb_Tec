@@ -20,7 +20,7 @@ function closeMenu() {
         menuText.textContent = "Menú";
     }
 
-    navbar.classList.remove("navegacion_abierta");
+    navbar.classList.remove("is-open");
 }
 
 
@@ -39,7 +39,7 @@ if (menuToggle && navbar && navList) {
             menuText.textContent = isOpen ? "Menú" : "Cerrar menú";
         }
 
-        navbar.classList.toggle("navegacion_abierta", !isOpen);
+        navbar.classList.toggle("is-open", !isOpen);
 
     });
 
@@ -59,7 +59,7 @@ if (menuToggle && navbar && navList) {
 
         if (
             event.key === "Escape" &&
-            navbar.classList.contains("navegacion_abierta")
+            navbar.classList.contains("is-open")
         ) {
 
             closeMenu();
