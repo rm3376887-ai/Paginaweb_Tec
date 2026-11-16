@@ -1406,6 +1406,10 @@ body.high-contrast .pie_pagina_inferior {
 
     .lista_navegacion.menu-open {
         display: flex;
+        max-height: 55vh;
+        max-height: 55dvh;
+        overflow-y: auto;
+        overscroll-behavior: contain;
     }
 
     .lista_navegacion li {
@@ -1452,13 +1456,17 @@ body.high-contrast .pie_pagina_inferior {
         padding-left: 30px;
     }
 
-    /* Evitar que el hover de escritorio abra submenús en móvil */
+    /* En pantallas táctiles, los submenús se controlan con el botón.
+       Evita que :hover o :focus-within los dejen abiertos por error. */
 
-    .desplegable:hover > .menu_desplegable {
+    .desplegable:hover > .menu_desplegable,
+    .desplegable:focus-within > .menu_desplegable {
         display: none;
     }
 
-    .desplegable.open:hover > .menu_desplegable {
+    .desplegable.open > .menu_desplegable,
+    .desplegable.open:hover > .menu_desplegable,
+    .desplegable.open:focus-within > .menu_desplegable {
         display: flex;
     }
 
