@@ -137,7 +137,7 @@
                             <li><a href="#galeria">Estudiantes</a></li>
                             <li><a href="#contacto">Docentes</a></li>
                             <li><a href="#institucion">Administrativo</a></li>
-                            <li><a href="https://zacatecassur.tecnm.mx/aspirante/index.php">Aspirantes</a></li>
+                            <li><a href="#oferta">Aspirantes</a></li>
                             <li><a href="#contacto">Inventarios</a></li>
                             <li><a href="">Código de Ética de la Empresa Desarrolladora</a></li>
                         </ul>
@@ -562,7 +562,7 @@
 
         // Abrir y cerrar el menú principal.
         menuToggle.addEventListener("click", function () {
-            const abierto = menuPrincipal.classList.toggle("menu_abierto");
+            const abierto = menuPrincipal.classList.toggle("menu-open");
 
             menuToggle.setAttribute("aria-expanded", abierto);
             menuToggle.innerHTML = abierto ? "✕ Cerrar menú" : "☰ Menú";
@@ -572,17 +572,17 @@
         document.querySelectorAll(".boton_desplegable").forEach(function (boton) {
             boton.addEventListener("click", function () {
                 const elemento = boton.closest(".desplegable");
-                const estabaAbierto = elemento.classList.contains("desplegable_abierto");
+                const estabaAbierto = elemento.classList.contains("open");
 
                 // Cerrar los demás submenús.
                 document.querySelectorAll(".desplegable.open").forEach(function (otro) {
-                    otro.classList.remove("desplegable_abierto");
+                    otro.classList.remove("open");
                     otro.querySelector(".boton_desplegable").setAttribute("aria-expanded", "false");
                 });
 
                 // Abrir el seleccionado si estaba cerrado.
                 if (!estabaAbierto) {
-                    elemento.classList.add("desplegable_abierto");
+                    elemento.classList.add("open");
                     boton.setAttribute("aria-expanded", "true");
                 }
             });
@@ -592,12 +592,12 @@
         document.querySelectorAll("#menu_principal .menu_desplegable a").forEach(function (enlace) {
             enlace.addEventListener("click", function () {
                 if (window.innerWidth <= 767) {
-                    menuPrincipal.classList.remove("menu_abierto");
+                    menuPrincipal.classList.remove("menu-open");
                     menuToggle.setAttribute("aria-expanded", "false");
                     menuToggle.innerHTML = "☰ Menú";
 
                     document.querySelectorAll(".desplegable.open").forEach(function (elemento) {
-                        elemento.classList.remove("desplegable_abierto");
+                        elemento.classList.remove("open");
                         elemento.querySelector(".boton_desplegable").setAttribute("aria-expanded", "false");
                     });
                 }
